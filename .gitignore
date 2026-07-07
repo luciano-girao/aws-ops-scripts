@@ -1,0 +1,31 @@
+# =============================================================
+# .gitignore - aws-ops-scripts
+# =============================================================
+
+# Variaveis de ambiente e segredos
+.env
+.env.*
+*.env
+
+# Logs gerados pelos scripts
+*.log
+logs/
+
+# Arquivos temporarios
+*.tmp
+*.bak
+*.swp
+*~
+
+# Credenciais AWS (NUNCA commitar)
+.aws/
+credentials
+
+# Outputs de audit
+*-report-*.txt
+
+# Editores
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
